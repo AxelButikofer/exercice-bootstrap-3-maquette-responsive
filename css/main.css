@@ -23,7 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  background: #f7f7f7;
   font-size: 1rem;
   line-height: 1.25;
   font-family: Heebo;
@@ -66,10 +66,14 @@ h3 {
 
 .reviews-title {
   text-align: left;
+  background: #eeeeee;
+  padding: 20px;
 }
 
 .block {
   text-align: left;
+  background: #ffffff;
+  margin-bottom: 20px;
 }
 
 .block p {
@@ -97,6 +101,10 @@ h3 {
 
 .card-title {
   padding-top: 25px;
+}
+
+.card-content {
+  background: white;
 }
 
 span {
