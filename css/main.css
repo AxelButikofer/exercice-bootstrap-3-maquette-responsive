@@ -26,6 +26,10 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: normal;
 }
 
 a {
@@ -37,6 +41,26 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+h1 {
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
 }
 
 .row + .row {
