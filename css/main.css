@@ -30,6 +30,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: normal;
+  text-align: center;
 }
 
 a {
@@ -63,14 +64,45 @@ h3 {
   line-height: 23px;
 }
 
-.row + .row {
-  margin-top: 16px;
+.reviews-title {
+  text-align: left;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.block {
+  text-align: left;
+}
+
+.block p {
+  padding-bottom: 20px;
+}
+
+.underline-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.author {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.author-card {
+  padding: 50px 10px 30px 10px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-title {
+  padding-top: 25px;
+}
+
+span {
+  color: #b3b3b3;
+}
+
+img {
+  width: 100%;
 }
